@@ -1,6 +1,6 @@
 
-export const LazyPages3 = () => {
+export const LazyPage3 = () => {
     return (
-      <div>LazyPages3</div>
+      <div>LazyPage3</div>
     )
   }

@@ -5,7 +5,7 @@ import { routes } from './routes';
 
 export const Navigation = () => {
 	return (
-		<Suspense fallback={(<span>Loading...</span>)}>
+		<Suspense fallback={(<span style={{alignContent: 'center'}}>Loading...</span>)}>
 			{/* TODO crear nav dinámicos */}
 			<BrowserRouter>
 				<div className='main-layout'>

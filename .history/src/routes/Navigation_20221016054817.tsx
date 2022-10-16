@@ -5,8 +5,8 @@ import { routes } from './routes';
 
 export const Navigation = () => {
 	return (
-		<Suspense fallback={(<span>Loading...</span>)}>
-			{/* TODO crear nav dinámicos */}
+		<Suspense>
+			//TODO crear nav dinámicos
 			<BrowserRouter>
 				<div className='main-layout'>
 					<nav>
